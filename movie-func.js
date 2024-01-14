@@ -2,9 +2,9 @@
 
 const axios = require('axios');
 
-exports.handler = async (event, context) => {
+exports.handler = async (val="batman", page=1) => {
   try {
-    const response = await axios.get(`http://www.omdbapi.com/?apiKey=ff24d901&s=batman&page=1`);
+    const response = await axios.get(`http://www.omdbapi.com/?apiKey=ff24d901&s=${val}&page=${page}`);
     return {
       statusCode: 200,
       body: JSON.stringify(response.data),
