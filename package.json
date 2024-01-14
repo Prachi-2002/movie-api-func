@@ -1,0 +1,22 @@
+{
+  "name": "movie-api-func",
+  "version": "1.0.0",
+  "description": "",
+  "main": "movie-func.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prachi-2002/movie-api-func.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Prachi-2002/movie-api-func/issues"
+  },
+  "homepage": "https://github.com/Prachi-2002/movie-api-func#readme",
+  "dependencies": {
+    "axios": "^1.6.5"
+  }
+}
