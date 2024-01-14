@@ -20,6 +20,6 @@
     "axios": "^1.6.5"
   },
   "scripts": {
-    "start": "movie-func.js"
+    "start": "node movie-func.js"
   }
 }
