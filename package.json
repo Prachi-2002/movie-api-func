@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Prachi-2002/movie-api-func#readme",
   "dependencies": {
     "axios": "^1.6.5"
+  },
+  "scripts": {
+    "start": "movie-func.js"
   }
 }
